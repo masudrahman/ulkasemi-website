@@ -1,5 +1,65 @@
+
+.title-bar {
+  background: #333;
+  padding: 0.9rem; }
+
+.top-bar {
+  background: #fff	; }
+  .top-bar ul {
+    background: #fff; }
+    .top-bar ul li {
+      background: #fff; }
+      .top-bar ul li a {
+        color: #333; }
+
+.menu-text {
+  color: #333; }
+  @media only screen and (max-width: 40em) {
+    .menu-text {
+      display: none !important; } }
+
+@media only screen and (min-width: 40em) {
+  .top-bar .menu:last-child {
+    border-left: 1px solid #4e4e4e; }
+
+  .top-bar .menu:first-child {
+    border-left: none; }
+
+  .top-bar .menu li:not(:last-child) {
+    border-right: 1px solid #4e4e4e; } }
+.dropdown.menu .submenu {
+  border: none; }
+
+.dropdown.menu .is-dropdown-submenu-parent.is-right-arrow > a::after {
+  border-color: #fff transparent transparent; }
+
+.is-drilldown-submenu-parent > a::after {
+  border-color: transparent transparent transparent #fff; }
+
+.js-drilldown-back::before {
+  border-color: transparent #fff transparent transparent; }
+
+/* End of top bar css*/
+
+
 .name img{
 	max-height:25px;
+}
+
+img{
+	background: #333;
+}
+
+h1{
+	color: orange;
+}
+
+.orbit{
+	background-color: gray;
+}
+
+body{
+	background-color: gray;
 }
 
 ul li a {
